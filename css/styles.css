@@ -191,7 +191,9 @@ nav {
   list-style-type: none;
   margin-left: 0%;
 }
-
+#first-col li i {
+  color: turquoise;
+}
 .pt-10 {
   padding-top: 7rem;
 }
@@ -206,4 +208,12 @@ nav {
 
 .blue-h3 {
   color: rgba(255, 255, 255, 0.5);
+}
+
+#pill-gris {
+  color: black;
+  background-color: lightgrey;
+}
+#first-col .precio {
+  font-size: 2rem;
 }
