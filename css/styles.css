@@ -184,3 +184,10 @@ text-decoration: underline;
   background-color: #eef2f8;
   border-color: #eef2f8;
 }
+
+
+/*   Estilos seccion blue */
+.blue {
+    height: 400px;
+    color: white;
+}
