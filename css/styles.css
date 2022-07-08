@@ -1,3 +1,186 @@
-h1 {
-    color: red;
+
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+nav {
+  font-weight: 500;
+}
+.nav-link.dropdown::after {
+  /* background-color: red; */
+   content: ">";
+    display: inline-block;
+    transition: transform 0.15s ease-in-out;
+    
+    }
+ .nav-link.dropdown.show::after {
+      transform: rotate(90deg);
+      display: inline-block;
+    }
+#moreHeadlines{
+  text-decoration: none;
+}
+#moreHeadlines:hover{
+  text-decoration: underline;
+}
+#readMore{
+  text-decoration: none;
+}
+#readMore:hover{
+text-decoration: underline;
+}
+#main-section {
+    background: #f2f6fc;
+    position: relative;
+}
+  #top-stories h2 {
+        font-size: 1rem;
+      }
+      
+      #top-stories a {
+        text-decoration: none;
+        color: blue;
+      }
+      #top-stories a:hover {
+        text-decoration: underline;
+      }
+      #stories {
+        /* padding: 3%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      #stories h3{
+       font-size: 1.2rem;
+      }
+      #stories h3:hover{
+        text-decoration: underline;
+      }
+      .storie{
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .storie a {
+        text-decoration: none;
+      }
+      .storie a:hover{
+        text-decoration: underline;
+      }
+      #opinions{
+        border-radius: 10px;
+      }
+      #opinions h3{
+        font-size: 1rem;
+      }
+      .opinion{
+        display: flex;
+        margin: 10px;
+      }
+      .opinion h4{
+        font-size: 1rem;
+      }
+      .opinion h4:hover {
+         text-decoration: underline;
+      }
+      .opinion img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+     
+
+.text-color-grey{
+    color: #69707a;
+}
+#buyNow {
+    background-color: #00ba94;
+    color: white;
+}
+
+.hover-links:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#backgroundImg {
+    background-image: url('https://source.unsplash.com/npxXWgQ33ZQ/700x380');
+    background-repeat: no-repeat; 
+}
+.newsCompanies {
+    font-size: 1.5rem;
+
+}
+.whenCreating {
+    color: gray;
+    font-size: 1.15rem;
+}
+.newsCompanies:hover {
+    text-decoration: underline;
+}
+
+
+.shadow-box {
+  box-shadow: 0px -5px 22px 24px rgba(0,0,0,0.1);
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 100;
+}
+
+.suscribe-btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  border: none;
+}
+#main-section::after{
+  content: " ";
+  height: 70px;
+  width: 100%;
+  background: url("../img/curveBlack.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Necesario para Firefox */
+  position: absolute;
+  bottom: 0;
+  
+}
+
+#footer {
+  background-color: #212832;
+  color: rgb(177, 173, 173);
+  margin-bottom: 2%;
+ 
+}
+/* #footer .row {
+  padding: 4%;
+} */
+
+#footer .row h6 {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 700;
+}
+#footer #row1 ul {
+  margin: 0;
+  padding: 0;
+}
+#footer #row1 li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+.badge {
+    background-color: #d9e7eb ;
+}
+
+.input-size  {
+  width: 80%;
+}
+#documentation:hover {
+    cursor: pointer;
+}
+
+.form-control-bg {
+  background-color: #eef2f8;
+  border-color: #eef2f8;
 }
