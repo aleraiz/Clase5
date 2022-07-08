@@ -222,6 +222,6 @@ nav {
   color: black;
   background-color: lightgrey;
 }
-#first-col .precio {
+.precio {
   font-size: 2rem;
 }
