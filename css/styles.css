@@ -186,7 +186,9 @@ nav {
     rgba(105, 0, 199, 0.8) 100%
   ) !important;
 }
-
+.cards {
+  background-color: #f2f6fc;
+}
 #first-col ul {
   list-style-type: none;
   margin-left: 0%;
@@ -201,7 +203,25 @@ nav {
 #second-col li i {
   color: turquoise;
 }
-
+#first-col,
+#second-col,
+#third-col {
+  width: 400px;
+  background-color: white;
+}
+#sectionOne {
+  position: relative;
+}
+#sectionOne::before {
+  content: " ";
+  height: 70px;
+  width: 100%;
+  background: transparent url("../img/curveBlue.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+}
 .pt-10 {
   padding-top: 7rem;
 }
@@ -215,7 +235,7 @@ nav {
 }
 
 .blue-h3 {
-  color: rgba(255, 255, 255, 0.5) !important ; 
+  color: rgba(255, 255, 255, 0.5) !important ;
 }
 
 #pill-gris {
