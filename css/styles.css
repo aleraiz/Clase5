@@ -194,6 +194,14 @@ nav {
 #first-col li i {
   color: turquoise;
 }
+#second-col ul {
+  list-style-type: none;
+  margin-left: 0%;
+}
+#second-col li i {
+  color: turquoise;
+}
+
 .pt-10 {
   padding-top: 7rem;
 }
@@ -214,6 +222,6 @@ nav {
   color: black;
   background-color: lightgrey;
 }
-#first-col .precio {
+.precio {
   font-size: 2rem;
 }
